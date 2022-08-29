@@ -49,7 +49,6 @@ public final class VRRoomsViewController: VRBaseViewController {
         self.create.action = { [weak self] in
             self?.navigationController?.pushViewController(VRCreateRoomViewController.init(), animated: true)
         }
-        
     }
     
 

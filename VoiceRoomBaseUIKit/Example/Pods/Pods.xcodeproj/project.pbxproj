@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04AB768A50B51F7B06CA977CEDF7D374 /* ResourceBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67367C6013481DF5158534B04F3EB73A /* ResourceBundleExtension.swift */; };
 		054A36C828BC90E300E40E8B /* VoiceRoomBusinessApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A36C728BC90E300E40E8B /* VoiceRoomBusinessApi.swift */; };
+		054A36CA28BCAF1B00E40E8B /* UIViewToastExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A36C928BCAF1B00E40E8B /* UIViewToastExtension.swift */; };
 		062B5344F6466208EA01A488466B29A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		07A77AE715A0121B5248D6D47A0C5522 /* NSAttributedStringFunctionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E3E067D397F44FB128A1E83D05A7F4 /* NSAttributedStringFunctionBuilder.swift */; };
 		0D4F40FF469226B83E9789F45BA2E397 /* HorizontalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAACD3752E952D4AA3D8F312BBF2DA /* HorizontalCardCell.swift */; };
@@ -127,6 +128,7 @@
 		027511DCE19448FDDA0650305057ADA3 /* Pods-VoiceRoomBaseUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomBaseUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		03FB0C60A66BD02E3818505755474588 /* VoiceRoomBaseUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomBaseUIKit-prefix.pch"; sourceTree = "<group>"; };
 		054A36C728BC90E300E40E8B /* VoiceRoomBusinessApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessApi.swift; sourceTree = "<group>"; };
+		054A36C928BCAF1B00E40E8B /* UIViewToastExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewToastExtension.swift; sourceTree = "<group>"; };
 		055054AAD501B952CD910E3B59EE2C44 /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ZSwiftBaseLib/Classes/DateExtension.swift; sourceTree = "<group>"; };
 		0BEAB80F9B1F019D4BC520403B1910A0 /* CALayerDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerDSL.swift; path = ZSwiftBaseLib/Classes/CALayerDSL.swift; sourceTree = "<group>"; };
 		167C5F9DB8DC97C7433A371789674B26 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				67367C6013481DF5158534B04F3EB73A /* ResourceBundleExtension.swift */,
 				3D09BEA3D318B92963285892ADB5FB93 /* UIButtonLayoutExtension.swift */,
 				6E6E010A07B57E4B8BDA6DA2D859A545 /* UIImageBundleExtension.swift */,
+				054A36C928BCAF1B00E40E8B /* UIViewToastExtension.swift */,
 			);
 			name = Extensions;
 			path = VoiceRoomBaseUIKit/Classes/Extensions;
@@ -784,6 +787,7 @@
 				86A46F5BF71F41C19B66C4F81797F4AA /* VRRoomEntity.swift in Sources */,
 				FB25A98638ED43632A3D5508F8AB0423 /* VRRoomListCell.swift in Sources */,
 				E81F3D52F9368641D36EF85EC83F5A6D /* VRRoomListView.swift in Sources */,
+				054A36CA28BCAF1B00E40E8B /* UIViewToastExtension.swift in Sources */,
 				9B6F0BD273036A2B4F97FFF0FFA669F6 /* VRRoomMenuBar.swift in Sources */,
 				1EBCC59B4A86B57281F360BCF94A49C3 /* VRRoomMenuBarCell.swift in Sources */,
 				3ADD2F2DF583BB904E2EEFB2DBCE11EF /* VRRoomMenuBarEntity.swift in Sources */,

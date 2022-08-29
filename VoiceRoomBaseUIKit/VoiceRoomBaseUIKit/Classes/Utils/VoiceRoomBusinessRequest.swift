@@ -15,9 +15,20 @@ public struct VoiceRoomBusinessRequest {
     
     static let shared = VoiceRoomBusinessRequest()
     
+    
+    /// Description send a request contain generic
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    public func sendRequest<T:Codable>(method: VoiceRoomRequestHTTPMethod,uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((T?,Error?) -> Void)) -> URLSessionTask? {
+    public func sendRequest<T:Codable>(
+        method: VoiceRoomRequestHTTPMethod,
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((T?,Error?) -> Void)) -> URLSessionTask? {
         let headers = ["Authorization:"+self.userToken:"Content-Type:application/json"]
         let task = VoiceRoomRequest.shared.constructRequest(method: method, uri: uri, params: params, headers: headers) { data, response, error in
             if error == nil {
@@ -37,9 +48,19 @@ public struct VoiceRoomBusinessRequest {
         }
         return task
     }
-    
-    public func sendRequest(method: VoiceRoomRequestHTTPMethod,uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String,Any>?,Error?) -> Void)) -> URLSessionTask? {
+    /// Description send a request
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of dictionary and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
+    @discardableResult
+    public func sendRequest(
+        method: VoiceRoomRequestHTTPMethod,
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String,Any>?,Error?) -> Void)) -> URLSessionTask? {
         let headers = ["Authorization:"+self.userToken:"Content-Type:application/json"]
         let task = VoiceRoomRequest.shared.constructRequest(method: method, uri: uri, params: params, headers: headers) { data, response, error in
             if error == nil {
@@ -58,108 +79,239 @@ public struct VoiceRoomBusinessRequest {
 
 }
 
+//MARK: - rest request
 public extension VoiceRoomBusinessRequest {
     
     //MARK: - generic uri request
+    
+    /// Description send a get request contain generic
+    /// - Parameters:
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendGETRequest<U:Codable>(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendGETRequest<U:Codable>(
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .get, uri: uri, params: params, callBack: callBack)
     }
     
+    /// Description send a post request contain generic
+    /// - Parameters:
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPOSTRequest<U:Codable>(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPOSTRequest<U:Codable>(
+        uri: String,params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .post, uri: uri, params: params, callBack: callBack)
     }
     
+    /// Description send a put request contain generic
+    /// - Parameters:
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPUTRequest<U:Codable>(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPUTRequest<U:Codable>(
+        uri: String,params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .put, uri: uri, params: params, callBack: callBack)
     }
     
+    /// Description send a delete request contain generic
+    /// - Parameters:
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendDELETERequest<U:Codable>(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendDELETERequest<U:Codable>(
+        uri: String,params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .delete, uri: uri, params: params, callBack: callBack)
     }
     
     //MARK: - generic api request
+    /// Description send a get request contain generic
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendGETRequest<U:Codable>(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendGETRequest<U:Codable>(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .get, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a post request contain generic
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPOSTRequest<U:Codable>(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPOSTRequest<U:Codable>(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .post, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a put request contain generic
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPUTRequest<U:Codable>(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPUTRequest<U:Codable>(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .put, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a delete request contain generic
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendDELETERequest<U:Codable>(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
+    func sendDELETERequest<U:Codable>(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((U?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .delete, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
     //MARK: - no generic uri request
+    /// Description send a get request
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of dictionary and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendGETRequest(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendGETRequest(
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .get, uri: uri, params: params, callBack: callBack)
     }
-    
+    /// Description send a post request
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of dictionary and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPOSTRequest(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPOSTRequest(
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .post, uri: uri, params: params, callBack: callBack)
     }
-    
+    /// Description send a put request
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of dictionary and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPUTRequest(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPUTRequest(
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .put, uri: uri, params: params, callBack: callBack)
     }
-    
+    /// Description send a delete request
+    /// - Parameters:
+    ///   - method: VoiceRoomRequestHTTPMethod
+    ///   - uri: The part spliced after the host.For example,"/xxx/xxx"
+    ///   - params: body params
+    ///   - callBack: response callback the tuple that made of dictionary and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendDELETERequest(uri: String,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendDELETERequest(
+        uri: String,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .delete, uri: uri, params: params, callBack: callBack)
     }
     
     //MARK: - no generic api request
+    /// Description send a get request
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendGETRequest(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendGETRequest(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .get, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a post request
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPOSTRequest(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPOSTRequest(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .post, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a put request
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendPUTRequest(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendPUTRequest(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .put, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description send a delete request
+    /// - Parameters:
+    ///   - api: The part spliced after the host.For example,"/xxx/xxx".Package with VoiceRoomBusinessApi.
+    ///   - params:  body params
+    ///   - callBack: response callback the tuple that made of generic and error.
+    /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
-    func sendDELETERequest(api: VoiceRoomBusinessApi,params: Dictionary<String, Any>,
-                               callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
+    func sendDELETERequest(
+        api: VoiceRoomBusinessApi,
+        params: Dictionary<String, Any>,
+        callBack:@escaping ((Dictionary<String, Any>?,Error?) -> Void)) -> URLSessionTask? {
         self.sendRequest(method: .delete, uri: self.convertApi(api: api), params: params, callBack: callBack)
     }
     
+    /// Description convert api to uri
+    /// - Parameter api: VoiceRoomBusinessApi
+    /// - Returns: uri string
     func convertApi(api: VoiceRoomBusinessApi) -> String {
         var uri = "/"
         switch api {
