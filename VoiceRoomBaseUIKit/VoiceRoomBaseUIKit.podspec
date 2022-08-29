@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
    s.public_header_files = 'Pod/Classes/**/*'
    s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'ZSwiftBaseLib','0.1.5'
+   s.dependency 'VoiceRoomRequest'
 end
