@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "VoiceRoomBaseUIKit/Classes/**/*",
   "resource_bundles": {
     "VoiceRoomBaseUIKit": [
       "VoiceRoomBaseUIKit/Assets/*"
@@ -38,5 +37,19 @@
     "VoiceRoomRequest": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "VoiceRoomScene",
+      "source_files": "VoiceRoomBaseUIKit/Classes/VoiceRoomScene/**/*"
+    },
+    {
+      "name": "VoiceRoomService",
+      "source_files": "VoiceRoomBaseUIKit/Classes/VoiceRoomService/**/*"
+    },
+    {
+      "name": "Commons",
+      "source_files": "VoiceRoomBaseUIKit/Classes/Commons/**/*"
+    }
+  ]
 }

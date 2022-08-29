@@ -15,7 +15,6 @@ public struct VoiceRoomBusinessRequest {
     
     static let shared = VoiceRoomBusinessRequest()
     
-    
     /// Description send a request contain generic
     /// - Parameters:
     ///   - method: VoiceRoomRequestHTTPMethod
@@ -371,6 +370,5 @@ public extension VoiceRoomBusinessRequest {
         return uri
     }
 }
-
 
 
