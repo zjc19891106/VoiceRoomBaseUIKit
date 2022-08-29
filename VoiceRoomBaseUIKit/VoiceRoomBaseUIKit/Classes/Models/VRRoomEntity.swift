@@ -16,7 +16,7 @@ class VRRoomsEntity: Codable {
 class VRRoomEntity: Codable {
     var room_id: String? //房间id
     var channel_id: String? //agora rtc channel id
-    var chat_room_id: UInt64? //agora chat chatroom id
+    var chat_room_id: String? //agora chat chatroom id
     var name: String? // 房间名称
     var owner: VRUser?
     var is_private: Bool? //是否为私密房间
