@@ -1,0 +1,6 @@
+framework module VoiceRoomBaseUIKit {
+  umbrella header "VoiceRoomBaseUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

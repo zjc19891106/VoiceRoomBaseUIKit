@@ -1,0 +1,8 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+
+target 'VoiceRoomBaseUIKit_Example' do
+  pod 'VoiceRoomBaseUIKit', :path => '../'
+  pod 'ZSwiftBaseLib','0.1.5'
+end

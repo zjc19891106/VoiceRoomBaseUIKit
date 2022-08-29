@@ -1,0 +1,39 @@
+{
+  "name": "VoiceRoomBaseUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of VoiceRoomBaseUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjc19891106/VoiceRoomBaseUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjc19891106": "984065974@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zjc19891106/VoiceRoomBaseUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "VoiceRoomBaseUIKit/Classes/**/*",
+  "resource_bundles": {
+    "VoiceRoomBaseUIKit": [
+      "VoiceRoomBaseUIKit/Assets/*"
+    ]
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "public_header_files": "Pod/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ZSwiftBaseLib": [
+      "0.1.5"
+    ]
+  }
+}
