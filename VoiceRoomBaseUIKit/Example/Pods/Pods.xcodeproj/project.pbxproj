@@ -130,7 +130,7 @@
 		0BEAB80F9B1F019D4BC520403B1910A0 /* CALayerDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerDSL.swift; path = ZSwiftBaseLib/Classes/CALayerDSL.swift; sourceTree = "<group>"; };
 		0EAD6E96B4315164A0093D1781B1C847 /* VRRoomCreateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomCreateView.swift; sourceTree = "<group>"; };
 		11FC518FF377761B307E022A9E19C7E3 /* VoiceRoomRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomRequest.debug.xcconfig; sourceTree = "<group>"; };
-		126A5A942EBA25D6E6873094DC89EDC5 /* VoiceRoomRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VoiceRoomRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		126A5A942EBA25D6E6873094DC89EDC5 /* VoiceRoomRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		14D9AD0CAAD3A8C0B408FF8410AE5FA8 /* VoiceRoomBaseUIkit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = VoiceRoomBaseUIkit.xcassets; path = VoiceRoomBaseUIKit/Assets/VoiceRoomBaseUIkit.xcassets; sourceTree = "<group>"; };
 		1B2E98F4795AF371A2A685752D11E5BC /* ZSwiftBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSwiftBaseLib.debug.xcconfig; sourceTree = "<group>"; };
 		1BC2373A12F330FA7F3BA45E79586A33 /* VRVerifyCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeView.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		29DFA3FE5AAA349ACCFF53DCA2818863 /* VRSoundTypeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundTypeCard.swift; sourceTree = "<group>"; };
 		29FAAB72D68797794D66358C254B6DEF /* VRSoundEffectsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsViewController.swift; sourceTree = "<group>"; };
 		2EDB54944DB04F49E88F19BBC4190BA4 /* ResourceBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceBundleExtension.swift; sourceTree = "<group>"; };
-		2F79E5E61A1A4EC723DE6F470D53D602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F79E5E61A1A4EC723DE6F470D53D602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		33E57439F46B99D62E2C6A5D5B8AC71C /* VRSoundEffectsCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsCell.swift; sourceTree = "<group>"; };
 		3423EDB82656919815E4DD612D19E0E0 /* VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
 		343BD4AD95C29EADFA3A193D344CEC9B /* ZSwiftBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSwiftBaseLib.release.xcconfig; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		38F8C6B0B049E31A1D41EF154B5FAAE0 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtension.swift; path = ZSwiftBaseLib/Classes/UIDeviceExtension.swift; sourceTree = "<group>"; };
 		3C16655808EFAF5DA271B7682BE18264 /* VRCreateRoomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomView.swift; sourceTree = "<group>"; };
 		3C82EE06CB711F31E812D5705D90B129 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceHolderTextView.swift; path = ZSwiftBaseLib/Classes/PlaceHolderTextView.swift; sourceTree = "<group>"; };
-		41120212E0859F1BF36899D15B1C8495 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		41120212E0859F1BF36899D15B1C8495 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4252C3C9368F05B6254A7A2E6370A343 /* ZSwiftBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSwiftBaseLib-dummy.m"; sourceTree = "<group>"; };
 		42899F1B0D3D0374D242FCFE19C66432 /* Pods-VoiceRoomBaseUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomBaseUIKit_Example-resources.sh"; sourceTree = "<group>"; };
 		44AE026678D925498E0E7CE33AEAB07A /* DataExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtension.swift; path = ZSwiftBaseLib/Classes/DataExtension.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		9313DAE7871F1F07011104EE8606529D /* NotificationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationExtension.swift; path = ZSwiftBaseLib/Classes/NotificationExtension.swift; sourceTree = "<group>"; };
 		93AF714ED49725A71D5566C8ABF729E0 /* ZSwiftBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZSwiftBaseLib.modulemap; sourceTree = "<group>"; };
 		97F7E94A9F9A51947D9772979BC80F05 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCF1016887914775CA7A62840C3B71E /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = ZSwiftBaseLib/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		A3F083E29BC33BD154DE709CF5F7663C /* DictionaryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtension.swift; path = ZSwiftBaseLib/Classes/DictionaryExtension.swift; sourceTree = "<group>"; };
 		A67D8E79E01108A2B76EBE05A7CA43FF /* Pods-VoiceRoomBaseUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRoomBaseUIKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -192,11 +192,11 @@
 		AE1BF2A7BF3485A3A9CD179B74051861 /* VRUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUser.swift; sourceTree = "<group>"; };
 		AF2001A012AE85EEF7AD2567B724FC73 /* VRRoomEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomEntity.swift; sourceTree = "<group>"; };
 		B012DC793B36AB38A42212AFC3D27C35 /* VoiceRoomRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomRequest.modulemap; sourceTree = "<group>"; };
-		B2F1F592731EA3AE73ECC918BD1A9AF6 /* VoiceRoomBaseUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VoiceRoomBaseUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2F1F592731EA3AE73ECC918BD1A9AF6 /* VoiceRoomBaseUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomBaseUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B33E8E5ABD96EAE349F74E9D440B7C7A /* VoiceRoomBaseUIKit-VoiceRoomBaseUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VoiceRoomBaseUIKit-VoiceRoomBaseUIKit"; path = VoiceRoomBaseUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BDDD01BFA9264682C9AAEB8ECC3C3B /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ZSwiftBaseLib/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		B774C0D5D989A8E771AC2AE9248D424A /* Pods-VoiceRoomBaseUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomBaseUIKit_Example-Info.plist"; sourceTree = "<group>"; };
-		BD8593EEA7EC1B1A9929717256304264 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD8593EEA7EC1B1A9929717256304264 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEE8C3C509B19D1121B89A90F4DC47F6 /* VRSoundEffectsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsList.swift; sourceTree = "<group>"; };
 		C038C4331E44711C1352BAD827BB9F93 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ZSwiftBaseLib/Classes/StringExtension.swift; sourceTree = "<group>"; };
 		C23904576A08D73A7E8505D50209D31A /* HorizontalCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardsView.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		C46559C35F3E52B68E712463338D1DC1 /* URLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = ZSwiftBaseLib/Classes/URLExtension.swift; sourceTree = "<group>"; };
 		C76555D5DEEB6A24C8C720EC917F7040 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = ZSwiftBaseLib/Classes/ArrayExtension.swift; sourceTree = "<group>"; };
 		D1AFD598754C25016B07236EB7E69B97 /* UIKitDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitDSL.swift; path = ZSwiftBaseLib/Classes/UIKitDSL.swift; sourceTree = "<group>"; };
-		D2CC7EFE8FA48569B2C115E5396E4D58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D2CC7EFE8FA48569B2C115E5396E4D58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D4BB3E80BB5C39467FA3CEA868FBDCB2 /* VoiceRoomRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomRequest-umbrella.h"; sourceTree = "<group>"; };
 		D986E0D18963B62368EEFD7651B86D9A /* UIButtonLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonLayoutExtension.swift; sourceTree = "<group>"; };
 		DC11AD31C2F04AE61C14A63AFB1481A1 /* VRVerifyCodeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeTextView.swift; sourceTree = "<group>"; };
@@ -321,7 +321,6 @@
 				E79505E8F1B33153B8ECD8722C69A418 /* ViewMemoryStorage.swift */,
 				3F79C4229FA67F177E8475D61E2EC0B1 /* Support Files */,
 			);
-			name = ZSwiftBaseLib;
 			path = ZSwiftBaseLib;
 			sourceTree = "<group>";
 		};
@@ -1288,8 +1287,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
