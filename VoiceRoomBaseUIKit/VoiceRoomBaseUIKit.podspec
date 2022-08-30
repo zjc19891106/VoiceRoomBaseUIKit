@@ -32,10 +32,10 @@ Pod::Spec.new do |s|
   
   s.subspec 'VoiceRoomScene' do |scene|
     scene.source_files = 'VoiceRoomBaseUIKit/Classes/VoiceRoomScene/**/*'
+#    scene.dependency 'Agora_Chat_iOS'
   end
   s.subspec 'VoiceRoomService' do |service|
     service.source_files = 'VoiceRoomBaseUIKit/Classes/VoiceRoomService/**/*'
-    service.dependency 'Agora_Chat_iOS'
   end
   s.subspec 'Commons' do |service|
     service.source_files = 'VoiceRoomBaseUIKit/Classes/Commons/**/*'

@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0188E848A39565E0084AB5CFF3724CC4 /* UIImageBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFB9B4D074D8A7F628ABCF59FC61F1 /* UIImageBundleExtension.swift */; };
-		02012A9F19B09ACCD85C80B4474D2D17 /* VRCreateRoomCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EECB72657A69FA0B794A553A666EED /* VRCreateRoomCardCell.swift */; };
+		0188E848A39565E0084AB5CFF3724CC4 /* UIImageBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593CB465E049DDC19F122B09FBAB9DC6 /* UIImageBundleExtension.swift */; };
+		02012A9F19B09ACCD85C80B4474D2D17 /* VRCreateRoomCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844369D5B9ACB252EB22E5209589526F /* VRCreateRoomCardCell.swift */; };
 		0850DEB148D24017B60AC83432F5AC74 /* ZSwiftBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252C3C9368F05B6254A7A2E6370A343 /* ZSwiftBaseLib-dummy.m */; };
 		0897CE97B9F1A411653AA383562ACF8B /* NSAttributedStringFunctionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E3E067D397F44FB128A1E83D05A7F4 /* NSAttributedStringFunctionBuilder.swift */; };
 		0AEDF09ABDC3D945E00782EE7BCEE396 /* ConsoleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BB672207CB4DC2D14E33B78551AFD1 /* ConsoleLog.swift */; };
 		0DA2B62B6493B77CC48DB09DE264BC18 /* VoiceRoomRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92846069DC9CD220A433084B8AD1C7C /* VoiceRoomRequest.swift */; };
 		126C6393311172AF3F4248ACC4C884F3 /* UIKitDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFD598754C25016B07236EB7E69B97 /* UIKitDSL.swift */; };
-		137F1B8C401E3CF7C33B28D40EF1410B /* UIButtonLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986E0D18963B62368EEFD7651B86D9A /* UIButtonLayoutExtension.swift */; };
-		1797368B283BAD75DE2DCF0CD08F8491 /* VRRoomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94DE04C4412E9153A2A01DC8B0E66B /* VRRoomMenuBar.swift */; };
-		18140D13D43DCB81A2E6F411E6B82C46 /* VRSoundEffectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C3C509B19D1121B89A90F4DC47F6 /* VRSoundEffectsList.swift */; };
+		137F1B8C401E3CF7C33B28D40EF1410B /* UIButtonLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CB704B9BC2F1DE5258081368B94FFF /* UIButtonLayoutExtension.swift */; };
+		1797368B283BAD75DE2DCF0CD08F8491 /* VRRoomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8380E9C6F66D5B33CFA2F4980A19C /* VRRoomMenuBar.swift */; };
+		18140D13D43DCB81A2E6F411E6B82C46 /* VRSoundEffectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA52BB8000F68F9905CDE311E4BE749 /* VRSoundEffectsList.swift */; };
 		1DBC9F902FA0047600069758D6C3BE18 /* ViewMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79505E8F1B33153B8ECD8722C69A418 /* ViewMemoryStorage.swift */; };
-		2CB843FBC716278F9A04A7E129846A42 /* VoiceRoomBusinessRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15581542792460A63BB8B92F4914C14 /* VoiceRoomBusinessRequest.swift */; };
-		2D996F59BE03BA993DD437046E08A666 /* HorizontalCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23904576A08D73A7E8505D50209D31A /* HorizontalCardsView.swift */; };
+		2CB843FBC716278F9A04A7E129846A42 /* VoiceRoomBusinessRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDFE4A3724DC8A90F0B7C273C945EC /* VoiceRoomBusinessRequest.swift */; };
+		2D996F59BE03BA993DD437046E08A666 /* HorizontalCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF0663170865B5E0E429D33E10CA80 /* HorizontalCardsView.swift */; };
 		2DEFACC5F8379EE1752A190EC7DDC932 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055054AAD501B952CD910E3B59EE2C44 /* DateExtension.swift */; };
-		2FB77E5536F39FED43E107EE51A3D4F4 /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E96C717387DB7BCFD5F2B655D696EBB /* BaseNavigationView.swift */; };
+		2FB77E5536F39FED43E107EE51A3D4F4 /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA81133CDA5DB8881820101A450AE53 /* BaseNavigationView.swift */; };
 		2FC0CFCBEA74783BD75914E69985C925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3295967A54F919A69BCB613305ED02C5 /* VoiceRoomBusinessApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D4CE5381B87A085BE21DB6FD6DA24 /* VoiceRoomBusinessApi.swift */; };
+		3295967A54F919A69BCB613305ED02C5 /* VoiceRoomBusinessApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82BE7C0FEC9CA2030CB726447D94CD /* VoiceRoomBusinessApi.swift */; };
 		449B1F00E978E8D462D74C6D352A3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		46BDD54827FC02643277EB57FDDCC2F0 /* VREmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF0B3055C2978E991D7AA2D3DCD849 /* VREmptyView.swift */; };
-		4A8765879A2512B00BBF2A7BC478F100 /* VRRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364339A0CA1E045E9ECC78E88326C609 /* VRRoomListView.swift */; };
-		504B6C6ECB27B4B3BD6ECAEEBEF294E2 /* VRRoomMenuBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E86B3FA27EE3FD20E3BEB16936BD235 /* VRRoomMenuBarEntity.swift */; };
+		46BDD54827FC02643277EB57FDDCC2F0 /* VREmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B765E267C543D9F99AD6D843D43CF /* VREmptyView.swift */; };
+		4A8765879A2512B00BBF2A7BC478F100 /* VRRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F30B4E05957E04D5C86619BFB5431 /* VRRoomListView.swift */; };
+		504B6C6ECB27B4B3BD6ECAEEBEF294E2 /* VRRoomMenuBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54966C2C70DCFE1E735F90EEB0A3B5E1 /* VRRoomMenuBarEntity.swift */; };
 		5091040358B8484826D76CAF6920F52A /* UIViewFunctionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA161B691694B2ADDC76B554553D645 /* UIViewFunctionBuilder.swift */; };
-		58AAAFDE5E7CFA0AFCFBCB6647BFCF71 /* VoiceRoomBaseUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 849A9F0CCDE5371983B4787A2685CCE1 /* VoiceRoomBaseUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AAAFDE5E7CFA0AFCFBCB6647BFCF71 /* VoiceRoomBaseUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D10F4B5E24EEBD523AEF03E9FCF521EB /* VoiceRoomBaseUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59A4B233B23D324E2F843E820BF15652 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C82EE06CB711F31E812D5705D90B129 /* PlaceHolderTextView.swift */; };
-		5DDFD51712C701DCDD3BA97B2AACE780 /* VoiceRoomBaseUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E58BCFC477A455F6F313CB3BDB94 /* VoiceRoomBaseUIKit-dummy.m */; };
-		601CAC70BF2C6142FA13956D7C10C8F1 /* VRSoundEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FAAB72D68797794D66358C254B6DEF /* VRSoundEffectsViewController.swift */; };
-		61CDCB99AEE2DFF580911E569AD85587 /* VRRoomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2001A012AE85EEF7AD2567B724FC73 /* VRRoomEntity.swift */; };
+		5DDFD51712C701DCDD3BA97B2AACE780 /* VoiceRoomBaseUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 751F6651A1707572CAD5062C47391F11 /* VoiceRoomBaseUIKit-dummy.m */; };
+		601CAC70BF2C6142FA13956D7C10C8F1 /* VRSoundEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F6E85D36918DA344EEF8CB96D4FA0 /* VRSoundEffectsViewController.swift */; };
+		61CDCB99AEE2DFF580911E569AD85587 /* VRRoomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829A1726868649A1E0C94C9665EEFC /* VRRoomEntity.swift */; };
 		62479E4A761538EFC10F2F17A6852B60 /* VoiceRoomRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A52F9F36B161B0A63D574A23F0190 /* VoiceRoomRequest-dummy.m */; };
 		631A6E7CE9BE5B9ED1A9310C2C809178 /* ZSwiftBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C393ECB81943F216298DAAC98AB3990E /* ZSwiftBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64CEE537846EE4E06F481C17B1866981 /* VRSoundEffectsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E57439F46B99D62E2C6A5D5B8AC71C /* VRSoundEffectsCell.swift */; };
+		64CEE537846EE4E06F481C17B1866981 /* VRSoundEffectsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEB2D6EF3D4548B4317C048C3B34EE /* VRSoundEffectsCell.swift */; };
 		65FAE6B76577D2BADFBC4330D52128F4 /* Pods-VoiceRoomBaseUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DA3205BA4F45E5D4922056660B940F /* Pods-VoiceRoomBaseUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67718EEF835BE1A8788EEF5CA109C697 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F8C6B0B049E31A1D41EF154B5FAAE0 /* UIDeviceExtension.swift */; };
-		6B9E3CD505ED49E6E100183D48C29924 /* VRRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F165A9EDE3C9E1681928E4E7D6669 /* VRRoomListCell.swift */; };
+		6B9E3CD505ED49E6E100183D48C29924 /* VRRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF72A69C72EF49E25ABF20E7A529B6DA /* VRRoomListCell.swift */; };
 		7002A667FA25527B01CFAB1E9A31424F /* CircularMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304750C8C057FB666DC3CD2097D0246 /* CircularMenuLayout.swift */; };
-		716BF04CB4AE6868961C7C027CECC5AF /* VRCreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C16655808EFAF5DA271B7682BE18264 /* VRCreateRoomView.swift */; };
+		716BF04CB4AE6868961C7C027CECC5AF /* VRCreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160D99740286256D97C9455DFC758AD /* VRCreateRoomView.swift */; };
 		76D65D422144FE09518CC1FA0E9F0551 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76555D5DEEB6A24C8C720EC917F7040 /* ArrayExtension.swift */; };
-		795E08C40E2FD7C691CB77A81F354A5A /* VRCreateRoomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7775F1C2A3691EDB9D68A230B7EEF8 /* VRCreateRoomInputView.swift */; };
-		7A50D6B16E66E783A496315CE1DDF00C /* VRVerifyCodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11AD31C2F04AE61C14A63AFB1481A1 /* VRVerifyCodeTextView.swift */; };
-		7D59F297E2E34D26ED9E94AE682A6CE5 /* VRRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA20197E6EF3CD69F58714345ADE5E /* VRRoomsViewController.swift */; };
-		7DD78A161FFF1CB80B38B7E3CBB20113 /* VoiceRoomBaseUIkit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D9AD0CAAD3A8C0B408FF8410AE5FA8 /* VoiceRoomBaseUIkit.xcassets */; };
+		795E08C40E2FD7C691CB77A81F354A5A /* VRCreateRoomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B84DAC13B2306949D4AAFA014DA8D22 /* VRCreateRoomInputView.swift */; };
+		7A50D6B16E66E783A496315CE1DDF00C /* VRVerifyCodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECE803071EE742C4404C9E90B6202E /* VRVerifyCodeTextView.swift */; };
+		7D59F297E2E34D26ED9E94AE682A6CE5 /* VRRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29993C6CEB0DED622FA7457F5AE9387B /* VRRoomsViewController.swift */; };
+		7DD78A161FFF1CB80B38B7E3CBB20113 /* VoiceRoomBaseUIkit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CFCE633F94C9D7FC3F90EAB2C537B2 /* VoiceRoomBaseUIkit.xcassets */; };
 		824F2657D47A486013D9A54D38F43F31 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F083E29BC33BD154DE709CF5F7663C /* DictionaryExtension.swift */; };
 		858D10D7B9CDDCBEBEA89326411B70F9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BDDD01BFA9264682C9AAEB8ECC3C3B /* UIColorExtension.swift */; };
 		86FB0FB066B986EA9F5622E8ED32D4AC /* Pods-VoiceRoomBaseUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D8E79E01108A2B76EBE05A7CA43FF /* Pods-VoiceRoomBaseUIKit_Example-dummy.m */; };
-		887173C577E68B9AE51CF5DFEC3FF4BE /* VRUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232A4576B786F0AE772624A7CC373D9 /* VRUserInfoView.swift */; };
-		889E4C129644D5A778151CCCCA49C825 /* VRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BF2A7BF3485A3A9CD179B74051861 /* VRUser.swift */; };
+		887173C577E68B9AE51CF5DFEC3FF4BE /* VRUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745694F083A6099B4F968F227297BB9C /* VRUserInfoView.swift */; };
+		889E4C129644D5A778151CCCCA49C825 /* VRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F01754E9459385817E2C866C76B0D3 /* VRUser.swift */; };
 		8A6F124E7CB599E53CE9C39CCF0AD471 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547B8BA13CB0EDF6146D8DED77108A5 /* Contants.swift */; };
 		8C740A7E495A548CBA2DDD062F147A9D /* CALayerDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEAB80F9B1F019D4BC520403B1910A0 /* CALayerDSL.swift */; };
 		8CF7F900328FD1A9E6562BF9BD22E8F0 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE026678D925498E0E7CE33AEAB07A /* DataExtension.swift */; };
-		8F148B3A12527AB5D840423E35CDC57F /* VRRoomCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD6E96B4315164A0093D1781B1C847 /* VRRoomCreateView.swift */; };
-		9044B756270A297A00E6B10CAB65C3F5 /* VRSoundTypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFA3FE5AAA349ACCFF53DCA2818863 /* VRSoundTypeCard.swift */; };
+		8F148B3A12527AB5D840423E35CDC57F /* VRRoomCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034D307E66FA3CB6209B34ECC9F1689 /* VRRoomCreateView.swift */; };
+		9044B756270A297A00E6B10CAB65C3F5 /* VRSoundTypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E827945A3EB55107DC60FE5861476 /* VRSoundTypeCard.swift */; };
 		9F30D33B11538093442171D895621779 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767A7C3336E8DDDC4CBA98A54D55A0C /* PropertyWrapper.swift */; };
-		A58136FED1AADB4ADC03660C970A100B /* HorizontalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36035BAB1FFFDEA10B6155E9F5E301 /* HorizontalCardCell.swift */; };
-		A918EB24A3A2C1A7AAFE315A91E6F6B7 /* ResourceBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB54944DB04F49E88F19BBC4190BA4 /* ResourceBundleExtension.swift */; };
+		A58136FED1AADB4ADC03660C970A100B /* HorizontalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E35BA1D8B28D36F7809ECFE3A3A0F6 /* HorizontalCardCell.swift */; };
+		A918EB24A3A2C1A7AAFE315A91E6F6B7 /* ResourceBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB922F25838357F7B5EB4ADBB0696A5F /* ResourceBundleExtension.swift */; };
 		AAC6176A66C703CA72085C7E0DE76A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0A380BA87897F6E186DF1BE407D8A4F /* VRVerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2373A12F330FA7F3BA45E79586A33 /* VRVerifyCodeView.swift */; };
-		B0F9A9DA9EA5663B82058100ACBCAA74 /* UIViewToastExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C05604D514ECC2AB1F734CA2CB319F /* UIViewToastExtension.swift */; };
+		B0A380BA87897F6E186DF1BE407D8A4F /* VRVerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05582D7267B48B45F498E14CDC0CCBCD /* VRVerifyCodeView.swift */; };
+		B0F9A9DA9EA5663B82058100ACBCAA74 /* UIViewToastExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC35F386DCFD0B771B783964622C788 /* UIViewToastExtension.swift */; };
 		B3BA64931598FE51CA59D16FA46C2607 /* VoiceRoomRequest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BB3E80BB5C39467FA3CEA868FBDCB2 /* VoiceRoomRequest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B66D23610B7081E8D6E62F26AF64E97A /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF1016887914775CA7A62840C3B71E /* UIImageExtension.swift */; };
 		BE25D650DFB6E9DD919CC6080D27B151 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9313DAE7871F1F07011104EE8606529D /* NotificationExtension.swift */; };
-		D737DB17F63C2C4B12388D62FDC9DBDB /* VRVerifyCodeNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5A8F29B7CB1B46037B3390D0E7F51 /* VRVerifyCodeNumberView.swift */; };
+		D737DB17F63C2C4B12388D62FDC9DBDB /* VRVerifyCodeNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB2DEE5EAE499DF4F5E73EA4D08ABD3 /* VRVerifyCodeNumberView.swift */; };
 		D9620E6AA93CD341D108744CA6E8A488 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46559C35F3E52B68E712463338D1DC1 /* URLExtension.swift */; };
-		DF0A9C75E0C436C5D6975802A03FE5DC /* VRCreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7F0B3F42436BE6FA074BC0BFAB226 /* VRCreateRoomViewController.swift */; };
+		DF0A9C75E0C436C5D6975802A03FE5DC /* VRCreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E9EE4747396778F2677444ACC7B04 /* VRCreateRoomViewController.swift */; };
 		DF4D2A66111C15FBB3C549BEDD14266D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038C4331E44711C1352BAD827BB9F93 /* StringExtension.swift */; };
-		E1820043F59B5431C9083C5BABF4EDB5 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF727A26DD0ADAA7078598B004ECEA8F /* HorizontalCardView.swift */; };
-		E7D3A3A24C076DABB4801D87E5B20189 /* VRUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A86E08E5147AE2F58C5A1BB4D5F176 /* VRUserProfileViewController.swift */; };
+		E1820043F59B5431C9083C5BABF4EDB5 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59631C4181CC856045826A7820A4223 /* HorizontalCardView.swift */; };
+		E7D3A3A24C076DABB4801D87E5B20189 /* VRUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D124A9D1FB91664F683AC03C9AA0B /* VRUserProfileViewController.swift */; };
 		E9F3E8360884E6460B5172912F9F67EF /* DispatchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E9320320DC71BA2C75BA94D4910A5 /* DispatchExtension.swift */; };
 		EEDEEED5FFA5E91ADD4FFA725249004F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F3FA052C183C9DD781230B1CE3770B56 /* VRRoomMenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F0E75E7FA8C75181B632397E091C40 /* VRRoomMenuBarCell.swift */; };
-		F41B58E86864FC9F1E4EDA622FDB41F1 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3F6BA11A0D876D866E6A7747BC3F3 /* VRBaseViewController.swift */; };
+		F3FA052C183C9DD781230B1CE3770B56 /* VRRoomMenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39B94870568B164432151348E583272 /* VRRoomMenuBarCell.swift */; };
+		F41B58E86864FC9F1E4EDA622FDB41F1 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2C9FAEA02743A43795A702D343C6 /* VRBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,108 +124,108 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0232A4576B786F0AE772624A7CC373D9 /* VRUserInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUserInfoView.swift; sourceTree = "<group>"; };
+		0160D99740286256D97C9455DFC758AD /* VRCreateRoomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomView.swift; sourceTree = "<group>"; };
 		027511DCE19448FDDA0650305057ADA3 /* Pods-VoiceRoomBaseUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomBaseUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		055054AAD501B952CD910E3B59EE2C44 /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ZSwiftBaseLib/Classes/DateExtension.swift; sourceTree = "<group>"; };
+		05582D7267B48B45F498E14CDC0CCBCD /* VRVerifyCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeView.swift; sourceTree = "<group>"; };
+		09D227A25D50171A0D6BBD5FF0254526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0BEAB80F9B1F019D4BC520403B1910A0 /* CALayerDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerDSL.swift; path = ZSwiftBaseLib/Classes/CALayerDSL.swift; sourceTree = "<group>"; };
-		0EAD6E96B4315164A0093D1781B1C847 /* VRRoomCreateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomCreateView.swift; sourceTree = "<group>"; };
+		0CC35F386DCFD0B771B783964622C788 /* UIViewToastExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewToastExtension.swift; sourceTree = "<group>"; };
+		0EB2DEE5EAE499DF4F5E73EA4D08ABD3 /* VRVerifyCodeNumberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeNumberView.swift; sourceTree = "<group>"; };
+		118B765E267C543D9F99AD6D843D43CF /* VREmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VREmptyView.swift; sourceTree = "<group>"; };
 		11FC518FF377761B307E022A9E19C7E3 /* VoiceRoomRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomRequest.debug.xcconfig; sourceTree = "<group>"; };
-		126A5A942EBA25D6E6873094DC89EDC5 /* VoiceRoomRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		14D9AD0CAAD3A8C0B408FF8410AE5FA8 /* VoiceRoomBaseUIkit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = VoiceRoomBaseUIkit.xcassets; path = VoiceRoomBaseUIKit/Assets/VoiceRoomBaseUIkit.xcassets; sourceTree = "<group>"; };
+		126A5A942EBA25D6E6873094DC89EDC5 /* VoiceRoomRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VoiceRoomRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		176E9EE4747396778F2677444ACC7B04 /* VRCreateRoomViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomViewController.swift; sourceTree = "<group>"; };
 		1B2E98F4795AF371A2A685752D11E5BC /* ZSwiftBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSwiftBaseLib.debug.xcconfig; sourceTree = "<group>"; };
-		1BC2373A12F330FA7F3BA45E79586A33 /* VRVerifyCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeView.swift; sourceTree = "<group>"; };
-		1E86B3FA27EE3FD20E3BEB16936BD235 /* VRRoomMenuBarEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBarEntity.swift; sourceTree = "<group>"; };
+		1EA52BB8000F68F9905CDE311E4BE749 /* VRSoundEffectsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsList.swift; sourceTree = "<group>"; };
+		1F2E827945A3EB55107DC60FE5861476 /* VRSoundTypeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundTypeCard.swift; sourceTree = "<group>"; };
 		226A45FB491A9DC60FDF248577ABC11A /* Pods-VoiceRoomBaseUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomBaseUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29DFA3FE5AAA349ACCFF53DCA2818863 /* VRSoundTypeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundTypeCard.swift; sourceTree = "<group>"; };
-		29FAAB72D68797794D66358C254B6DEF /* VRSoundEffectsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsViewController.swift; sourceTree = "<group>"; };
-		2EDB54944DB04F49E88F19BBC4190BA4 /* ResourceBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceBundleExtension.swift; sourceTree = "<group>"; };
-		2F79E5E61A1A4EC723DE6F470D53D602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		33E57439F46B99D62E2C6A5D5B8AC71C /* VRSoundEffectsCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsCell.swift; sourceTree = "<group>"; };
-		3423EDB82656919815E4DD612D19E0E0 /* VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
+		2440BA05F13E0B95023D2DF7FE75939A /* VoiceRoomBaseUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomBaseUIKit-prefix.pch"; sourceTree = "<group>"; };
+		24EADCE02CCB9BD871DA067CAD0D09C7 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
+		26F01754E9459385817E2C866C76B0D3 /* VRUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUser.swift; sourceTree = "<group>"; };
+		29993C6CEB0DED622FA7457F5AE9387B /* VRRoomsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomsViewController.swift; sourceTree = "<group>"; };
+		2A1A2C9FAEA02743A43795A702D343C6 /* VRBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRBaseViewController.swift; sourceTree = "<group>"; };
+		31CB704B9BC2F1DE5258081368B94FFF /* UIButtonLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonLayoutExtension.swift; sourceTree = "<group>"; };
 		343BD4AD95C29EADFA3A193D344CEC9B /* ZSwiftBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSwiftBaseLib.release.xcconfig; sourceTree = "<group>"; };
-		364339A0CA1E045E9ECC78E88326C609 /* VRRoomListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomListView.swift; sourceTree = "<group>"; };
 		38F8C6B0B049E31A1D41EF154B5FAAE0 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtension.swift; path = ZSwiftBaseLib/Classes/UIDeviceExtension.swift; sourceTree = "<group>"; };
-		3C16655808EFAF5DA271B7682BE18264 /* VRCreateRoomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomView.swift; sourceTree = "<group>"; };
+		3B84DAC13B2306949D4AAFA014DA8D22 /* VRCreateRoomInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomInputView.swift; sourceTree = "<group>"; };
 		3C82EE06CB711F31E812D5705D90B129 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceHolderTextView.swift; path = ZSwiftBaseLib/Classes/PlaceHolderTextView.swift; sourceTree = "<group>"; };
-		41120212E0859F1BF36899D15B1C8495 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DC8380E9C6F66D5B33CFA2F4980A19C /* VRRoomMenuBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBar.swift; sourceTree = "<group>"; };
 		4252C3C9368F05B6254A7A2E6370A343 /* ZSwiftBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSwiftBaseLib-dummy.m"; sourceTree = "<group>"; };
 		42899F1B0D3D0374D242FCFE19C66432 /* Pods-VoiceRoomBaseUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomBaseUIKit_Example-resources.sh"; sourceTree = "<group>"; };
 		44AE026678D925498E0E7CE33AEAB07A /* DataExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtension.swift; path = ZSwiftBaseLib/Classes/DataExtension.swift; sourceTree = "<group>"; };
+		45829A1726868649A1E0C94C9665EEFC /* VRRoomEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomEntity.swift; sourceTree = "<group>"; };
 		462F55BF01EAED214A9542FFE0F3A026 /* Pods-VoiceRoomBaseUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomBaseUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4995CEADE0B11661EBE4BCA053380684 /* VoiceRoomRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomRequest.release.xcconfig; sourceTree = "<group>"; };
-		4A5A1C3EC746F0A70BD1EC177EE7901F /* VoiceRoomBaseUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomBaseUIKit.debug.xcconfig; sourceTree = "<group>"; };
-		4CDFBB6FDF7622C334562E662FC5949C /* VoiceRoomBaseUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomBaseUIKit.release.xcconfig; sourceTree = "<group>"; };
+		4A82BE7C0FEC9CA2030CB726447D94CD /* VoiceRoomBusinessApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessApi.swift; sourceTree = "<group>"; };
+		4AA81133CDA5DB8881820101A450AE53 /* BaseNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseNavigationView.swift; sourceTree = "<group>"; };
+		54966C2C70DCFE1E735F90EEB0A3B5E1 /* VRRoomMenuBarEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBarEntity.swift; sourceTree = "<group>"; };
 		5767A7C3336E8DDDC4CBA98A54D55A0C /* PropertyWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyWrapper.swift; path = ZSwiftBaseLib/Classes/PropertyWrapper.swift; sourceTree = "<group>"; };
+		593CB465E049DDC19F122B09FBAB9DC6 /* UIImageBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageBundleExtension.swift; sourceTree = "<group>"; };
 		5B770B0F329230E67526B0AECEC955E2 /* Pods-VoiceRoomBaseUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRoomBaseUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B94DE04C4412E9153A2A01DC8B0E66B /* VRRoomMenuBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBar.swift; sourceTree = "<group>"; };
-		5E71BE6E5177B20658DA94ADE6D2B2A1 /* VoiceRoomBaseUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomBaseUIKit-prefix.pch"; sourceTree = "<group>"; };
-		5E96C717387DB7BCFD5F2B655D696EBB /* BaseNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseNavigationView.swift; sourceTree = "<group>"; };
 		60E3C284506420449B37B868B2D1ED0B /* ZSwiftBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSwiftBaseLib-prefix.pch"; sourceTree = "<group>"; };
+		622C4B5777C82CC748725C0457BBFCB5 /* VoiceRoomBaseUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomBaseUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		643D124A9D1FB91664F683AC03C9AA0B /* VRUserProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUserProfileViewController.swift; sourceTree = "<group>"; };
 		66771A3F21E00BFB7C205FE4E6980889 /* Pods-VoiceRoomBaseUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomBaseUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		669F8199F0A61B90D1F185336E273F9F /* ZSwiftBaseLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZSwiftBaseLib; path = ZSwiftBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7A52F9F36B161B0A63D574A23F0190 /* VoiceRoomRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomRequest-dummy.m"; sourceTree = "<group>"; };
-		6CEFB9B4D074D8A7F628ABCF59FC61F1 /* UIImageBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageBundleExtension.swift; sourceTree = "<group>"; };
-		6D3F165A9EDE3C9E1681928E4E7D6669 /* VRRoomListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomListCell.swift; sourceTree = "<group>"; };
+		6E163287F73F4FF67E524AB1178BB051 /* VoiceRoomBaseUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomBaseUIKit.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7304750C8C057FB666DC3CD2097D0246 /* CircularMenuLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularMenuLayout.swift; path = ZSwiftBaseLib/Classes/CircularMenuLayout.swift; sourceTree = "<group>"; };
+		745694F083A6099B4F968F227297BB9C /* VRUserInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUserInfoView.swift; sourceTree = "<group>"; };
+		751F6651A1707572CAD5062C47391F11 /* VoiceRoomBaseUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomBaseUIKit-dummy.m"; sourceTree = "<group>"; };
 		75E3E067D397F44FB128A1E83D05A7F4 /* NSAttributedStringFunctionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringFunctionBuilder.swift; path = ZSwiftBaseLib/Classes/NSAttributedStringFunctionBuilder.swift; sourceTree = "<group>"; };
-		78C05604D514ECC2AB1F734CA2CB319F /* UIViewToastExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewToastExtension.swift; sourceTree = "<group>"; };
-		7FA7F0B3F42436BE6FA074BC0BFAB226 /* VRCreateRoomViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomViewController.swift; sourceTree = "<group>"; };
-		80F0E75E7FA8C75181B632397E091C40 /* VRRoomMenuBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBarCell.swift; sourceTree = "<group>"; };
-		82E661C6BAFDBA8D78B8BE37E1E59F63 /* VoiceRoomBaseUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomBaseUIKit.modulemap; sourceTree = "<group>"; };
-		83BA20197E6EF3CD69F58714345ADE5E /* VRRoomsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomsViewController.swift; sourceTree = "<group>"; };
-		849A9F0CCDE5371983B4787A2685CCE1 /* VoiceRoomBaseUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomBaseUIKit-umbrella.h"; sourceTree = "<group>"; };
+		844369D5B9ACB252EB22E5209589526F /* VRCreateRoomCardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomCardCell.swift; sourceTree = "<group>"; };
 		85DA3205BA4F45E5D4922056660B940F /* Pods-VoiceRoomBaseUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRoomBaseUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8C7775F1C2A3691EDB9D68A230B7EEF8 /* VRCreateRoomInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomInputView.swift; sourceTree = "<group>"; };
-		8E36035BAB1FFFDEA10B6155E9F5E301 /* HorizontalCardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardCell.swift; sourceTree = "<group>"; };
-		8FA3F6BA11A0D876D866E6A7747BC3F3 /* VRBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRBaseViewController.swift; sourceTree = "<group>"; };
-		905D4CE5381B87A085BE21DB6FD6DA24 /* VoiceRoomBusinessApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessApi.swift; sourceTree = "<group>"; };
+		87EDFE4A3724DC8A90F0B7C273C945EC /* VoiceRoomBusinessRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessRequest.swift; sourceTree = "<group>"; };
+		88912F1242E31F7B0A7B1AEC7C230749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		91C47CDFCFEF7E5AF39E8B2DC9BEEA6D /* VoiceRoomRequest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VoiceRoomRequest; path = VoiceRoomRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9313DAE7871F1F07011104EE8606529D /* NotificationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationExtension.swift; path = ZSwiftBaseLib/Classes/NotificationExtension.swift; sourceTree = "<group>"; };
 		93AF714ED49725A71D5566C8ABF729E0 /* ZSwiftBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZSwiftBaseLib.modulemap; sourceTree = "<group>"; };
-		97F7E94A9F9A51947D9772979BC80F05 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCF1016887914775CA7A62840C3B71E /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = ZSwiftBaseLib/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		9FDEB2D6EF3D4548B4317C048C3B34EE /* VRSoundEffectsCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsCell.swift; sourceTree = "<group>"; };
+		A39B94870568B164432151348E583272 /* VRRoomMenuBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBarCell.swift; sourceTree = "<group>"; };
 		A3F083E29BC33BD154DE709CF5F7663C /* DictionaryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtension.swift; path = ZSwiftBaseLib/Classes/DictionaryExtension.swift; sourceTree = "<group>"; };
+		A4BF0663170865B5E0E429D33E10CA80 /* HorizontalCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardsView.swift; sourceTree = "<group>"; };
 		A67D8E79E01108A2B76EBE05A7CA43FF /* Pods-VoiceRoomBaseUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRoomBaseUIKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AE0E9320320DC71BA2C75BA94D4910A5 /* DispatchExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchExtension.swift; path = ZSwiftBaseLib/Classes/DispatchExtension.swift; sourceTree = "<group>"; };
-		AE1BF2A7BF3485A3A9CD179B74051861 /* VRUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUser.swift; sourceTree = "<group>"; };
-		AF2001A012AE85EEF7AD2567B724FC73 /* VRRoomEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomEntity.swift; sourceTree = "<group>"; };
 		B012DC793B36AB38A42212AFC3D27C35 /* VoiceRoomRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomRequest.modulemap; sourceTree = "<group>"; };
-		B2F1F592731EA3AE73ECC918BD1A9AF6 /* VoiceRoomBaseUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomBaseUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B33E8E5ABD96EAE349F74E9D440B7C7A /* VoiceRoomBaseUIKit-VoiceRoomBaseUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VoiceRoomBaseUIKit-VoiceRoomBaseUIKit"; path = VoiceRoomBaseUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BDDD01BFA9264682C9AAEB8ECC3C3B /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ZSwiftBaseLib/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
+		B6C0A5F739CBFA8CC7FAA60EE2257345 /* VoiceRoomBaseUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomBaseUIKit-Info.plist"; sourceTree = "<group>"; };
 		B774C0D5D989A8E771AC2AE9248D424A /* Pods-VoiceRoomBaseUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomBaseUIKit_Example-Info.plist"; sourceTree = "<group>"; };
-		BD8593EEA7EC1B1A9929717256304264 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BEE8C3C509B19D1121B89A90F4DC47F6 /* VRSoundEffectsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsList.swift; sourceTree = "<group>"; };
+		BD8593EEA7EC1B1A9929717256304264 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BDECE803071EE742C4404C9E90B6202E /* VRVerifyCodeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeTextView.swift; sourceTree = "<group>"; };
+		BF72A69C72EF49E25ABF20E7A529B6DA /* VRRoomListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomListCell.swift; sourceTree = "<group>"; };
 		C038C4331E44711C1352BAD827BB9F93 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ZSwiftBaseLib/Classes/StringExtension.swift; sourceTree = "<group>"; };
-		C23904576A08D73A7E8505D50209D31A /* HorizontalCardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardsView.swift; sourceTree = "<group>"; };
 		C393ECB81943F216298DAAC98AB3990E /* ZSwiftBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSwiftBaseLib-umbrella.h"; sourceTree = "<group>"; };
 		C46559C35F3E52B68E712463338D1DC1 /* URLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = ZSwiftBaseLib/Classes/URLExtension.swift; sourceTree = "<group>"; };
 		C76555D5DEEB6A24C8C720EC917F7040 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = ZSwiftBaseLib/Classes/ArrayExtension.swift; sourceTree = "<group>"; };
+		D10F4B5E24EEBD523AEF03E9FCF521EB /* VoiceRoomBaseUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomBaseUIKit-umbrella.h"; sourceTree = "<group>"; };
 		D1AFD598754C25016B07236EB7E69B97 /* UIKitDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitDSL.swift; path = ZSwiftBaseLib/Classes/UIKitDSL.swift; sourceTree = "<group>"; };
-		D2CC7EFE8FA48569B2C115E5396E4D58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2CC7EFE8FA48569B2C115E5396E4D58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D4BB3E80BB5C39467FA3CEA868FBDCB2 /* VoiceRoomRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomRequest-umbrella.h"; sourceTree = "<group>"; };
-		D986E0D18963B62368EEFD7651B86D9A /* UIButtonLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonLayoutExtension.swift; sourceTree = "<group>"; };
-		DC11AD31C2F04AE61C14A63AFB1481A1 /* VRVerifyCodeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeTextView.swift; sourceTree = "<group>"; };
+		DB922F25838357F7B5EB4ADBB0696A5F /* ResourceBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceBundleExtension.swift; sourceTree = "<group>"; };
 		DEA161B691694B2ADDC76B554553D645 /* UIViewFunctionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFunctionBuilder.swift; path = ZSwiftBaseLib/Classes/UIViewFunctionBuilder.swift; sourceTree = "<group>"; };
 		DF2A7B87F536D08EDC1134B8138FEED1 /* VoiceRoomRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomRequest-prefix.pch"; sourceTree = "<group>"; };
-		DFEF0B3055C2978E991D7AA2D3DCD849 /* VREmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VREmptyView.swift; sourceTree = "<group>"; };
+		DFB938F63C24675C153A01D932EBAC2A /* VoiceRoomBaseUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomBaseUIKit.release.xcconfig; sourceTree = "<group>"; };
+		E034D307E66FA3CB6209B34ECC9F1689 /* VRRoomCreateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomCreateView.swift; sourceTree = "<group>"; };
+		E08F30B4E05957E04D5C86619BFB5431 /* VRRoomListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRRoomListView.swift; sourceTree = "<group>"; };
 		E44FDD74CB060A990A8EA1D098E48F2B /* VoiceRoomRequest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomRequest-Info.plist"; sourceTree = "<group>"; };
 		E517B7854C2345FAAE92FB88AD954B78 /* Pods-VoiceRoomBaseUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceRoomBaseUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		E6BB672207CB4DC2D14E33B78551AFD1 /* ConsoleLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleLog.swift; path = ZSwiftBaseLib/Classes/ConsoleLog.swift; sourceTree = "<group>"; };
 		E79505E8F1B33153B8ECD8722C69A418 /* ViewMemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewMemoryStorage.swift; path = ZSwiftBaseLib/Classes/ViewMemoryStorage.swift; sourceTree = "<group>"; };
+		E7E35BA1D8B28D36F7809ECFE3A3A0F6 /* HorizontalCardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardCell.swift; sourceTree = "<group>"; };
 		E84B347E876349DD523FBC50A905C939 /* ZSwiftBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZSwiftBaseLib-Info.plist"; sourceTree = "<group>"; };
-		E8EECB72657A69FA0B794A553A666EED /* VRCreateRoomCardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRCreateRoomCardCell.swift; sourceTree = "<group>"; };
 		E92846069DC9CD220A433084B8AD1C7C /* VoiceRoomRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceRoomRequest.swift; path = VoiceRoomRequest/Classes/VoiceRoomRequest.swift; sourceTree = "<group>"; };
-		E9A86E08E5147AE2F58C5A1BB4D5F176 /* VRUserProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRUserProfileViewController.swift; sourceTree = "<group>"; };
 		ED4710D9315082C2EE53B4C4B940504C /* Pods-VoiceRoomBaseUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VoiceRoomBaseUIKit_Example"; path = Pods_VoiceRoomBaseUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFA8E58BCFC477A455F6F313CB3BDB94 /* VoiceRoomBaseUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomBaseUIKit-dummy.m"; sourceTree = "<group>"; };
-		F15581542792460A63BB8B92F4914C14 /* VoiceRoomBusinessRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessRequest.swift; sourceTree = "<group>"; };
-		F3C5A8F29B7CB1B46037B3390D0E7F51 /* VRVerifyCodeNumberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeNumberView.swift; sourceTree = "<group>"; };
+		EE5F6E85D36918DA344EEF8CB96D4FA0 /* VRSoundEffectsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VRSoundEffectsViewController.swift; sourceTree = "<group>"; };
+		EFCA4B295756DCD93FB3196F96EF0811 /* VoiceRoomBaseUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VoiceRoomBaseUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2CFCE633F94C9D7FC3F90EAB2C537B2 /* VoiceRoomBaseUIkit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = VoiceRoomBaseUIkit.xcassets; path = VoiceRoomBaseUIKit/Assets/VoiceRoomBaseUIkit.xcassets; sourceTree = "<group>"; };
 		F547B8BA13CB0EDF6146D8DED77108A5 /* Contants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contants.swift; path = ZSwiftBaseLib/Classes/Contants.swift; sourceTree = "<group>"; };
+		F59631C4181CC856045826A7820A4223 /* HorizontalCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardView.swift; sourceTree = "<group>"; };
 		F6F3B503830C2BBABC3AB69F301A4DFF /* VoiceRoomBaseUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VoiceRoomBaseUIKit; path = VoiceRoomBaseUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF727A26DD0ADAA7078598B004ECEA8F /* HorizontalCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,28 +271,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0510F2805A89865BE1A5A03EF59DA5EC /* Models */ = {
+		0DA0B4758003088F3AE8AB4815F90C5D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				AF2001A012AE85EEF7AD2567B724FC73 /* VRRoomEntity.swift */,
-				1E86B3FA27EE3FD20E3BEB16936BD235 /* VRRoomMenuBarEntity.swift */,
-				AE1BF2A7BF3485A3A9CD179B74051861 /* VRUser.swift */,
+				E7E35BA1D8B28D36F7809ECFE3A3A0F6 /* HorizontalCardCell.swift */,
+				844369D5B9ACB252EB22E5209589526F /* VRCreateRoomCardCell.swift */,
+				BF72A69C72EF49E25ABF20E7A529B6DA /* VRRoomListCell.swift */,
+				A39B94870568B164432151348E583272 /* VRRoomMenuBarCell.swift */,
+				9FDEB2D6EF3D4548B4317C048C3B34EE /* VRSoundEffectsCell.swift */,
 			);
-			name = Models;
-			path = VoiceRoomBaseUIKit/Classes/Commons/Models;
-			sourceTree = "<group>";
-		};
-		173EB06F14AD96A00919B27EDB4D57D3 /* VoiceRoomBaseUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				14D9AD0CAAD3A8C0B408FF8410AE5FA8 /* VoiceRoomBaseUIkit.xcassets */,
-				A6EDE5990E52FA2501F2DAF83A54844B /* Commons */,
-				65DD69A1D558686CF8CE9D1D93828B4C /* Pod */,
-				6BEE8D3D1D84941F876A88B2A8A79307 /* Support Files */,
-				64680D878F404852C1C7B67EC4CD1F76 /* VoiceRoomScene */,
-			);
-			name = VoiceRoomBaseUIKit;
-			path = ../..;
+			name = Cells;
+			path = VoiceRoomBaseUIKit/Classes/VoiceRoomService/Cells;
 			sourceTree = "<group>";
 		};
 		2E05888432528CA3263660A03A0B202E /* ZSwiftBaseLib */ = {
@@ -321,7 +310,18 @@
 				E79505E8F1B33153B8ECD8722C69A418 /* ViewMemoryStorage.swift */,
 				3F79C4229FA67F177E8475D61E2EC0B1 /* Support Files */,
 			);
+			name = ZSwiftBaseLib;
 			path = ZSwiftBaseLib;
+			sourceTree = "<group>";
+		};
+		3029C2A56E708EC306905A5282A85894 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				09D227A25D50171A0D6BBD5FF0254526 /* LICENSE */,
+				88912F1242E31F7B0A7B1AEC7C230749 /* README.md */,
+				EFCA4B295756DCD93FB3196F96EF0811 /* VoiceRoomBaseUIKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3F79C4229FA67F177E8475D61E2EC0B1 /* Support Files */ = {
@@ -351,6 +351,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		56746FE8E69D324E15A49B9B4B9DF2EA /* VoiceRoomService */ = {
+			isa = PBXGroup;
+			children = (
+				0DA0B4758003088F3AE8AB4815F90C5D /* Cells */,
+				BF4E95CA82B894A3690807F6EE5CC25B /* Controllers */,
+				9927DA6E71754D003385A57D548B9569 /* Views */,
+			);
+			name = VoiceRoomService;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,75 +369,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64680D878F404852C1C7B67EC4CD1F76 /* VoiceRoomScene */ = {
+		7B8C2273F94857A702006DC1E48B4881 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F97E932BCC014A606D8509D63F1D8E07 /* Cells */,
-				DCDC7A8EE6885456C9ADB194276A0478 /* Controllers */,
-				81BE1EA6101989A7DC79F463CC56045A /* Views */,
+				45829A1726868649A1E0C94C9665EEFC /* VRRoomEntity.swift */,
+				54966C2C70DCFE1E735F90EEB0A3B5E1 /* VRRoomMenuBarEntity.swift */,
+				26F01754E9459385817E2C866C76B0D3 /* VRUser.swift */,
 			);
-			name = VoiceRoomScene;
-			sourceTree = "<group>";
-		};
-		65DD69A1D558686CF8CE9D1D93828B4C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				41120212E0859F1BF36899D15B1C8495 /* LICENSE */,
-				2F79E5E61A1A4EC723DE6F470D53D602 /* README.md */,
-				B2F1F592731EA3AE73ECC918BD1A9AF6 /* VoiceRoomBaseUIKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6BEE8D3D1D84941F876A88B2A8A79307 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				97F7E94A9F9A51947D9772979BC80F05 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */,
-				82E661C6BAFDBA8D78B8BE37E1E59F63 /* VoiceRoomBaseUIKit.modulemap */,
-				EFA8E58BCFC477A455F6F313CB3BDB94 /* VoiceRoomBaseUIKit-dummy.m */,
-				3423EDB82656919815E4DD612D19E0E0 /* VoiceRoomBaseUIKit-Info.plist */,
-				5E71BE6E5177B20658DA94ADE6D2B2A1 /* VoiceRoomBaseUIKit-prefix.pch */,
-				849A9F0CCDE5371983B4787A2685CCE1 /* VoiceRoomBaseUIKit-umbrella.h */,
-				4A5A1C3EC746F0A70BD1EC177EE7901F /* VoiceRoomBaseUIKit.debug.xcconfig */,
-				4CDFBB6FDF7622C334562E662FC5949C /* VoiceRoomBaseUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VoiceRoomBaseUIKit";
-			sourceTree = "<group>";
-		};
-		7CD831E6755099E9DD118466AE402CC7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2EDB54944DB04F49E88F19BBC4190BA4 /* ResourceBundleExtension.swift */,
-				D986E0D18963B62368EEFD7651B86D9A /* UIButtonLayoutExtension.swift */,
-				6CEFB9B4D074D8A7F628ABCF59FC61F1 /* UIImageBundleExtension.swift */,
-				78C05604D514ECC2AB1F734CA2CB319F /* UIViewToastExtension.swift */,
-			);
-			name = Extensions;
-			path = VoiceRoomBaseUIKit/Classes/Commons/Extensions;
-			sourceTree = "<group>";
-		};
-		81BE1EA6101989A7DC79F463CC56045A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				5E96C717387DB7BCFD5F2B655D696EBB /* BaseNavigationView.swift */,
-				C23904576A08D73A7E8505D50209D31A /* HorizontalCardsView.swift */,
-				FF727A26DD0ADAA7078598B004ECEA8F /* HorizontalCardView.swift */,
-				8C7775F1C2A3691EDB9D68A230B7EEF8 /* VRCreateRoomInputView.swift */,
-				3C16655808EFAF5DA271B7682BE18264 /* VRCreateRoomView.swift */,
-				DFEF0B3055C2978E991D7AA2D3DCD849 /* VREmptyView.swift */,
-				0EAD6E96B4315164A0093D1781B1C847 /* VRRoomCreateView.swift */,
-				364339A0CA1E045E9ECC78E88326C609 /* VRRoomListView.swift */,
-				5B94DE04C4412E9153A2A01DC8B0E66B /* VRRoomMenuBar.swift */,
-				BEE8C3C509B19D1121B89A90F4DC47F6 /* VRSoundEffectsList.swift */,
-				29DFA3FE5AAA349ACCFF53DCA2818863 /* VRSoundTypeCard.swift */,
-				0232A4576B786F0AE772624A7CC373D9 /* VRUserInfoView.swift */,
-				F3C5A8F29B7CB1B46037B3390D0E7F51 /* VRVerifyCodeNumberView.swift */,
-				DC11AD31C2F04AE61C14A63AFB1481A1 /* VRVerifyCodeTextView.swift */,
-				1BC2373A12F330FA7F3BA45E79586A33 /* VRVerifyCodeView.swift */,
-			);
-			name = Views;
-			path = VoiceRoomBaseUIKit/Classes/VoiceRoomScene/Views;
+			name = Models;
+			path = VoiceRoomBaseUIKit/Classes/Commons/Models;
 			sourceTree = "<group>";
 		};
 		88C5B0F67D70F868FD985510E1035DBD /* Pod */ = {
@@ -459,6 +409,19 @@
 			path = ../../../../VoiceRoomRequest/VoiceRoomRequest;
 			sourceTree = "<group>";
 		};
+		9511C242FCA7FAD517C649FCC6E69CFF /* VoiceRoomBaseUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F2CFCE633F94C9D7FC3F90EAB2C537B2 /* VoiceRoomBaseUIkit.xcassets */,
+				F4BB3C20BA0847A312F5DECFB70418D3 /* Commons */,
+				3029C2A56E708EC306905A5282A85894 /* Pod */,
+				A0F6CA0903A74AF6821E8BD22948A958 /* Support Files */,
+				56746FE8E69D324E15A49B9B4B9DF2EA /* VoiceRoomService */,
+			);
+			name = VoiceRoomBaseUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		97C29FD0D6139F4260B71525F2B54DFA /* Pods-VoiceRoomBaseUIKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,6 +440,45 @@
 			path = "Target Support Files/Pods-VoiceRoomBaseUIKit_Example";
 			sourceTree = "<group>";
 		};
+		9927DA6E71754D003385A57D548B9569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AA81133CDA5DB8881820101A450AE53 /* BaseNavigationView.swift */,
+				A4BF0663170865B5E0E429D33E10CA80 /* HorizontalCardsView.swift */,
+				F59631C4181CC856045826A7820A4223 /* HorizontalCardView.swift */,
+				3B84DAC13B2306949D4AAFA014DA8D22 /* VRCreateRoomInputView.swift */,
+				0160D99740286256D97C9455DFC758AD /* VRCreateRoomView.swift */,
+				118B765E267C543D9F99AD6D843D43CF /* VREmptyView.swift */,
+				E034D307E66FA3CB6209B34ECC9F1689 /* VRRoomCreateView.swift */,
+				E08F30B4E05957E04D5C86619BFB5431 /* VRRoomListView.swift */,
+				3DC8380E9C6F66D5B33CFA2F4980A19C /* VRRoomMenuBar.swift */,
+				1EA52BB8000F68F9905CDE311E4BE749 /* VRSoundEffectsList.swift */,
+				1F2E827945A3EB55107DC60FE5861476 /* VRSoundTypeCard.swift */,
+				745694F083A6099B4F968F227297BB9C /* VRUserInfoView.swift */,
+				0EB2DEE5EAE499DF4F5E73EA4D08ABD3 /* VRVerifyCodeNumberView.swift */,
+				BDECE803071EE742C4404C9E90B6202E /* VRVerifyCodeTextView.swift */,
+				05582D7267B48B45F498E14CDC0CCBCD /* VRVerifyCodeView.swift */,
+			);
+			name = Views;
+			path = VoiceRoomBaseUIKit/Classes/VoiceRoomService/Views;
+			sourceTree = "<group>";
+		};
+		A0F6CA0903A74AF6821E8BD22948A958 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EADCE02CCB9BD871DA067CAD0D09C7 /* ResourceBundle-VoiceRoomBaseUIKit-VoiceRoomBaseUIKit-Info.plist */,
+				6E163287F73F4FF67E524AB1178BB051 /* VoiceRoomBaseUIKit.modulemap */,
+				751F6651A1707572CAD5062C47391F11 /* VoiceRoomBaseUIKit-dummy.m */,
+				B6C0A5F739CBFA8CC7FAA60EE2257345 /* VoiceRoomBaseUIKit-Info.plist */,
+				2440BA05F13E0B95023D2DF7FE75939A /* VoiceRoomBaseUIKit-prefix.pch */,
+				D10F4B5E24EEBD523AEF03E9FCF521EB /* VoiceRoomBaseUIKit-umbrella.h */,
+				622C4B5777C82CC748725C0457BBFCB5 /* VoiceRoomBaseUIKit.debug.xcconfig */,
+				DFB938F63C24675C153A01D932EBAC2A /* VoiceRoomBaseUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VoiceRoomBaseUIKit";
+			sourceTree = "<group>";
+		};
 		A1312E383BF0739077CF9C2E1214EB6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,14 +487,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A6EDE5990E52FA2501F2DAF83A54844B /* Commons */ = {
+		A558563415740473D6FD036ED4BAB37A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7CD831E6755099E9DD118466AE402CC7 /* Extensions */,
-				0510F2805A89865BE1A5A03EF59DA5EC /* Models */,
-				E11C43A090FD953504EBC6BA08C85D1B /* Utils */,
+				4A82BE7C0FEC9CA2030CB726447D94CD /* VoiceRoomBusinessApi.swift */,
+				87EDFE4A3724DC8A90F0B7C273C945EC /* VoiceRoomBusinessRequest.swift */,
 			);
-			name = Commons;
+			name = Utils;
+			path = VoiceRoomBaseUIKit/Classes/Commons/Utils;
 			sourceTree = "<group>";
 		};
 		AE1BC609622856D5A2C75B99A06A359B /* Support Files */ = {
@@ -508,6 +510,19 @@
 			);
 			name = "Support Files";
 			path = "../../VoiceRoomBaseUIKit/VoiceRoomBaseUIKit/Example/Pods/Target Support Files/VoiceRoomRequest";
+			sourceTree = "<group>";
+		};
+		BF4E95CA82B894A3690807F6EE5CC25B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A2C9FAEA02743A43795A702D343C6 /* VRBaseViewController.swift */,
+				176E9EE4747396778F2677444ACC7B04 /* VRCreateRoomViewController.swift */,
+				29993C6CEB0DED622FA7457F5AE9387B /* VRRoomsViewController.swift */,
+				EE5F6E85D36918DA344EEF8CB96D4FA0 /* VRSoundEffectsViewController.swift */,
+				643D124A9D1FB91664F683AC03C9AA0B /* VRUserProfileViewController.swift */,
+			);
+			name = Controllers;
+			path = VoiceRoomBaseUIKit/Classes/VoiceRoomService/Controllers;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -530,49 +545,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DCDC7A8EE6885456C9ADB194276A0478 /* Controllers */ = {
+		D999FF789DE64B8B2588D0BC418A58D8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8FA3F6BA11A0D876D866E6A7747BC3F3 /* VRBaseViewController.swift */,
-				7FA7F0B3F42436BE6FA074BC0BFAB226 /* VRCreateRoomViewController.swift */,
-				83BA20197E6EF3CD69F58714345ADE5E /* VRRoomsViewController.swift */,
-				29FAAB72D68797794D66358C254B6DEF /* VRSoundEffectsViewController.swift */,
-				E9A86E08E5147AE2F58C5A1BB4D5F176 /* VRUserProfileViewController.swift */,
+				DB922F25838357F7B5EB4ADBB0696A5F /* ResourceBundleExtension.swift */,
+				31CB704B9BC2F1DE5258081368B94FFF /* UIButtonLayoutExtension.swift */,
+				593CB465E049DDC19F122B09FBAB9DC6 /* UIImageBundleExtension.swift */,
+				0CC35F386DCFD0B771B783964622C788 /* UIViewToastExtension.swift */,
 			);
-			name = Controllers;
-			path = VoiceRoomBaseUIKit/Classes/VoiceRoomScene/Controllers;
-			sourceTree = "<group>";
-		};
-		E11C43A090FD953504EBC6BA08C85D1B /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				905D4CE5381B87A085BE21DB6FD6DA24 /* VoiceRoomBusinessApi.swift */,
-				F15581542792460A63BB8B92F4914C14 /* VoiceRoomBusinessRequest.swift */,
-			);
-			name = Utils;
-			path = VoiceRoomBaseUIKit/Classes/Commons/Utils;
+			name = Extensions;
+			path = VoiceRoomBaseUIKit/Classes/Commons/Extensions;
 			sourceTree = "<group>";
 		};
 		ED394527F45EAE023956A073F669E5D5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				173EB06F14AD96A00919B27EDB4D57D3 /* VoiceRoomBaseUIKit */,
+				9511C242FCA7FAD517C649FCC6E69CFF /* VoiceRoomBaseUIKit */,
 				8C4D389E13AE10203786B7DD02B074CF /* VoiceRoomRequest */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F97E932BCC014A606D8509D63F1D8E07 /* Cells */ = {
+		F4BB3C20BA0847A312F5DECFB70418D3 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				8E36035BAB1FFFDEA10B6155E9F5E301 /* HorizontalCardCell.swift */,
-				E8EECB72657A69FA0B794A553A666EED /* VRCreateRoomCardCell.swift */,
-				6D3F165A9EDE3C9E1681928E4E7D6669 /* VRRoomListCell.swift */,
-				80F0E75E7FA8C75181B632397E091C40 /* VRRoomMenuBarCell.swift */,
-				33E57439F46B99D62E2C6A5D5B8AC71C /* VRSoundEffectsCell.swift */,
+				D999FF789DE64B8B2588D0BC418A58D8 /* Extensions */,
+				7B8C2273F94857A702006DC1E48B4881 /* Models */,
+				A558563415740473D6FD036ED4BAB37A /* Utils */,
 			);
-			name = Cells;
-			path = VoiceRoomBaseUIKit/Classes/VoiceRoomScene/Cells;
+			name = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -918,7 +919,7 @@
 /* Begin XCBuildConfiguration section */
 		0DE498336452120DF466C671D662E6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5A1C3EC746F0A70BD1EC177EE7901F /* VoiceRoomBaseUIKit.debug.xcconfig */;
+			baseConfigurationReference = 622C4B5777C82CC748725C0457BBFCB5 /* VoiceRoomBaseUIKit.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -986,7 +987,7 @@
 		};
 		37C7A455393967B83B2C9CB98917DE9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CDFBB6FDF7622C334562E662FC5949C /* VoiceRoomBaseUIKit.release.xcconfig */;
+			baseConfigurationReference = DFB938F63C24675C153A01D932EBAC2A /* VoiceRoomBaseUIKit.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1020,7 +1021,7 @@
 		};
 		3C0F8C77C249CA36808B198A7E219EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5A1C3EC746F0A70BD1EC177EE7901F /* VoiceRoomBaseUIKit.debug.xcconfig */;
+			baseConfigurationReference = 622C4B5777C82CC748725C0457BBFCB5 /* VoiceRoomBaseUIKit.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoiceRoomBaseUIKit";
 				IBSC_MODULE = VoiceRoomBaseUIKit;
@@ -1287,7 +1288,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1327,7 +1329,7 @@
 		};
 		CC4245F23EA84636B8DBDD163F2473C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CDFBB6FDF7622C334562E662FC5949C /* VoiceRoomBaseUIKit.release.xcconfig */;
+			baseConfigurationReference = DFB938F63C24675C153A01D932EBAC2A /* VoiceRoomBaseUIKit.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoiceRoomBaseUIKit";
 				IBSC_MODULE = VoiceRoomBaseUIKit;
