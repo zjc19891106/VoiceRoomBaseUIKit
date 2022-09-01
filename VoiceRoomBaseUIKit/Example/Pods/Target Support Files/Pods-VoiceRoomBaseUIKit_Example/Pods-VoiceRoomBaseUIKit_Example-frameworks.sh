@@ -176,10 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/Agora_Chat_iOS/AgoraChat.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/VoiceRoomIMKit/VoiceRoomIMKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VoiceRoomRequest/VoiceRoomRequest.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZSwiftBaseLib/ZSwiftBaseLib.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/Agora_Chat_iOS/AgoraChat.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/VoiceRoomIMKit/VoiceRoomIMKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VoiceRoomRequest/VoiceRoomRequest.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZSwiftBaseLib/ZSwiftBaseLib.framework"
 fi

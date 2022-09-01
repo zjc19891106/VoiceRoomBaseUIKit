@@ -214,11 +214,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-VoiceRoomBaseUIKit_Example/Pods-VoiceRoomBaseUIKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Agora_Chat_iOS/AgoraChat.framework",
+				"${BUILT_PRODUCTS_DIR}/VoiceRoomIMKit/VoiceRoomIMKit.framework",
 				"${BUILT_PRODUCTS_DIR}/VoiceRoomRequest/VoiceRoomRequest.framework",
 				"${BUILT_PRODUCTS_DIR}/ZSwiftBaseLib/ZSwiftBaseLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VoiceRoomIMKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VoiceRoomRequest.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSwiftBaseLib.framework",
 			);

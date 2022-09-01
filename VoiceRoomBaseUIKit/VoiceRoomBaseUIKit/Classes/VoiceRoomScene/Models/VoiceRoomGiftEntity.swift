@@ -14,6 +14,6 @@ import Foundation
     var avatar: UIImage? {
         UIImage(self.gift_id ?? "")
     }
-    var gift_count: Int? = 0
+    var gift_count: String? = "0"
 }
 

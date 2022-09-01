@@ -7,4 +7,5 @@ target 'VoiceRoomBaseUIKit_Example' do
   pod 'ZSwiftBaseLib','0.1.5'
   pod 'VoiceRoomRequest', :path => "../../../VoiceRoomRequest/VoiceRoomRequest"
 #  pod 'VoiceRoomBaseUIKit', :subspec => ['xxx','Commons'] //xxx 代表VoiceRoomScene或者VoiceRoomService
+  pod 'VoiceRoomIMKit', :path => "../../../VoiceRoomIMKit/VoiceRoomIMKit"
 end
