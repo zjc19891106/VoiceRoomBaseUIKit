@@ -7,13 +7,13 @@
 
 import Foundation
 
-class VRRoomsEntity: Codable {
+@objcMembers open class VRRoomsEntity:NSObject, Codable {
     var total: Int? //总房间数量
     var cursor: String? //下一次请求房间列表的cursor
     var rooms: [VRRoomEntity]?//房间信息数组
 }
 
-class VRRoomEntity: Codable {
+@objcMembers open class VRRoomEntity:NSObject, Codable {
     var room_id: String? //房间id
     var channel_id: String? //agora rtc channel id
     var chat_room_id: String? //agora chat chatroom id

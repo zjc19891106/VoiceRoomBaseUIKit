@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class VRRoomMenuBarEntity: Codable {
+@objcMembers open class VRRoomMenuBarEntity: Codable {
     var title: String = ""
     var detail: String? = ""
     var selected: Bool = false

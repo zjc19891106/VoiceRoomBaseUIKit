@@ -9,7 +9,8 @@ import UIKit
 import VoiceRoomRequest
 import ZSwiftBaseLib
 
-public struct VoiceRoomBusinessRequest {
+
+@objcMembers public class VoiceRoomBusinessRequest: NSObject {
     
     @UserDefault("VoiceRoomBusinessUserToken", defaultValue: "") var userToken
     
@@ -30,7 +31,7 @@ public struct VoiceRoomBusinessRequest {
         callBack:@escaping ((T?,Error?) -> Void)) -> URLSessionTask? {
         let headers = ["Authorization:"+self.userToken:"Content-Type:application/json"]
         let task = VoiceRoomRequest.shared.constructRequest(method: method, uri: uri, params: params, headers: headers) { data, response, error in
-            if error == nil {
+            if error == nil,response?.statusCode ?? 0 == 200 {
                 var item: T?
                 var parserError: Error?
                 if let data = data {
@@ -62,13 +63,8 @@ public struct VoiceRoomBusinessRequest {
         callBack:@escaping ((Dictionary<String,Any>?,Error?) -> Void)) -> URLSessionTask? {
         let headers = ["Authorization:"+self.userToken:"Content-Type:application/json"]
         let task = VoiceRoomRequest.shared.constructRequest(method: method, uri: uri, params: params, headers: headers) { data, response, error in
-            if error == nil {
-                let code = response?.statusCode ?? 0
-                switch code {
-                case 200: callBack(data?.z.toDictionary(),nil)
-                default: break
-                }
-                
+            if error == nil,response?.statusCode ?? 0 == 200 {
+                callBack(data?.z.toDictionary(),nil)
             } else {
                 callBack(nil,error)
             }

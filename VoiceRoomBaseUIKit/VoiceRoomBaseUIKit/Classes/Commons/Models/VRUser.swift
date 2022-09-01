@@ -7,7 +7,7 @@
 
 import Foundation
 
-class VRUser: Codable {
+@objcMembers open class VRUser:NSObject, Codable {
     var uid: String?
     var channel_id: String?
     var name: String?

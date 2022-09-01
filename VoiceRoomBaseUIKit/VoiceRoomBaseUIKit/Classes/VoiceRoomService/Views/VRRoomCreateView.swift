@@ -36,7 +36,7 @@ public class VRRoomCreateView: UIImageView {
     
 }
 
-extension UIButton {
+extension UIView {
     
     @discardableResult
     func setGradient(_ colors: [UIColor],_ points: [CGPoint]) -> Self {
