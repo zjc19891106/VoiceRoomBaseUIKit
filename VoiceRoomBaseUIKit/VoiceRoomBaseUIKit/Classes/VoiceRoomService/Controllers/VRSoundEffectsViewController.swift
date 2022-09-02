@@ -20,7 +20,7 @@ public class VRSoundEffectsViewController: VRBaseViewController {
     
     let done = UIButton {
         UIButton(type: .custom).frame(CGRect(x: 0, y: ScreenHeight - CGFloat(ZBottombarHeight) - CGFloat(ZTabbarHeight) - 50, width: ScreenWidth, height: 72)).backgroundImg(UIImage("blur")!, .normal)
-        UIButton(type: .custom).frame(CGRect(x: 30, y: 10, width: ScreenWidth - 60, height: 50)).title("Go Live", .normal).font(.systemFont(ofSize: 16, weight: .semibold)).setGradient([UIColor(0x219BFF),UIColor(0x345DFF)], [CGPoint(x: 0.25, y: 0.5),CGPoint(x: 0.75, y: 0.5)]).cornerRadius(25)
+        UIButton(type: .custom).frame(CGRect(x: 30, y: 10, width: ScreenWidth - 60, height: 50)).title("Go Live", .normal).font(.systemFont(ofSize: 16, weight: .semibold)).setGradient([UIColor(0x219BFF),UIColor(0x345DFF)], [CGPoint(x: 0.25, y: 0.5),CGPoint(x: 0.75, y: 0.5)]).cornerRadius(25).addTargetFor(VRSoundEffectsViewController.self, action: #selector(goLive), for: .touchUpInside)
     }
     
 
@@ -30,6 +30,10 @@ public class VRSoundEffectsViewController: VRBaseViewController {
         self.view.addSubViews([self.background,self.effects,self.done])
         self.view.bringSubviewToFront(self.navigation)
         self.navigation.title.text = "Sound Selection"
+    }
+    
+    @objc func goLive() {
+        
     }
     
 }

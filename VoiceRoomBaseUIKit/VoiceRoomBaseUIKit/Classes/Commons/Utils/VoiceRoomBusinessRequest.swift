@@ -10,11 +10,11 @@ import VoiceRoomRequest
 import ZSwiftBaseLib
 
 
-@objcMembers public class VoiceRoomBusinessRequest: NSObject {
+@objc public class VoiceRoomBusinessRequest: NSObject {
     
     @UserDefault("VoiceRoomBusinessUserToken", defaultValue: "") var userToken
     
-    static let shared = VoiceRoomBusinessRequest()
+    @objc public static let shared = VoiceRoomBusinessRequest()
     
     /// Description send a request contain generic
     /// - Parameters:
@@ -198,6 +198,7 @@ public extension VoiceRoomBusinessRequest {
     ///   - callBack: response callback the tuple that made of dictionary and error.
     /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
+    @objc
     func sendGETRequest(
         uri: String,
         params: Dictionary<String, Any>,
@@ -212,6 +213,7 @@ public extension VoiceRoomBusinessRequest {
     ///   - callBack: response callback the tuple that made of dictionary and error.
     /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
+    @objc
     func sendPOSTRequest(
         uri: String,
         params: Dictionary<String, Any>,
@@ -226,6 +228,7 @@ public extension VoiceRoomBusinessRequest {
     ///   - callBack: response callback the tuple that made of dictionary and error.
     /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
+    @objc
     func sendPUTRequest(
         uri: String,
         params: Dictionary<String, Any>,
@@ -240,6 +243,7 @@ public extension VoiceRoomBusinessRequest {
     ///   - callBack: response callback the tuple that made of dictionary and error.
     /// - Returns: Request task,what if you can determine its status or cancel it .
     @discardableResult
+    @objc
     func sendDELETERequest(
         uri: String,
         params: Dictionary<String, Any>,

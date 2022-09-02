@@ -6,24 +6,42 @@
 //
 
 import UIKit
+import ZSwiftBaseLib
+//public enum
 
-class VoiceRoomAlertViewController: UIViewController {
+public class VoiceRoomAlertViewController: UIViewController,PresentedViewType {
+    
+    public var presentedViewComponent: PresentedViewComponent
+    
+    var customView: UIView?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var limitHeight = ScreenHeight/2.0
 
-        // Do any additional setup after loading the view.
+    lazy var container: UIView = {
+        VoiceRoomAlertContainer(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 56)).cornerRadius(20, [.topLeft,.topRight], .white, 0).backgroundColor(.white)
+    }()
+
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        self.presentedViewComponent = PresentedViewComponent(contentSize: CGSize(width: ScreenWidth, height: ScreenHeight/2.0))
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        self.presentedViewComponent = PresentedViewComponent(contentSize: CGSize(width: ScreenWidth, height: ScreenHeight/2.0))
+        super.init(coder: aDecoder)
+    }
+    
+    public convenience init(compent: PresentedViewComponent,custom: UIView) {
+        self.init()
+        self.presentedViewComponent = compent
+        self.presentedViewComponent.contentSize = CGSize(width: compent.contentSize.width, height: compent.contentSize.height+56)
+        self.customView = custom
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.addSubViews([self.container,self.customView!])
     }
-    */
 
 }
